@@ -1,0 +1,104 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		// {
+		// 	"path": "pages/index/index",
+		// 	"style": {
+		// 		"navigationBarTitleText": "uni-app"
+		// 	}
+		// },
+		{
+			"path":"pages/index/login",
+			"style": {
+				"navigationStyle":"custom"
+				// "navigationBarTitleText":"2222"
+			}
+		},
+		{
+			"path":"pages/index/phoneCode",
+			"style": {
+				"navigationBarTitleText":""
+			}
+		},
+		{
+			"path":"pages/index/wanshan1",
+			"style": {
+				"navigationBarTitleText":"完善基本资料1/3"
+			}
+		},
+        {
+        	"path":"pages/index/wanshan2",
+        	"style": {
+        		"navigationBarTitleText":"完善基本资料2/3"
+        	}
+        },
+		{
+			"path":"pages/index/wanshan3",
+			"style": {
+				"navigationBarTitleText":"完善基本资料3/3"
+			}
+		},
+		{
+			"path":"pages/index/password",
+			"style": {
+				"navigationBarTitleText":"密码"
+			}
+		},
+		{
+			"path":"pages/index/bindPassword",
+			"style": {
+				"navigationStyle":"custom"
+				// "navigationBarTitleText":"2222"
+			}
+		},
+		{
+			"path":"pages/index/loginForCode",
+			"style": {
+				"navigationBarTitleText":"验证码登录"
+			}
+		},
+		{
+			"path":"pages/index/mine",
+			"style": {
+				"navigationBarTitleText":"我",
+				"app-plus":{
+					"titleNView":false
+				}
+			}
+		},
+		{
+			"path":"pages/mine/myInfomation",
+			"style": {
+				"navigationBarTitleText":"我的资料",
+				"app-plus":{
+					"titleNView":{
+						"buttons":[{
+							"float":"right",
+							"fontSize":"30rpx",
+							"text":"保存"
+
+						}]
+					}
+				}
+			}
+		},
+		{
+			"path":"pages/mine/set",
+			"style": {
+				"navigationBarTitleText":"设置"
+			}
+		},
+		{
+			"path":"pages/mine/setPassword",
+			"style": {
+				"navigationBarTitleText":"修改密码"
+			}
+		}
+		
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "依梦交友",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+}
